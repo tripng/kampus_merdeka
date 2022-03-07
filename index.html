@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 6 Kalkulator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="kalkulator">
+        <form class="kal" name="kalkulator">
+            <input type="text" readonly class="value" name="hasil">
+            <div class="input">
+                <input type="text" placeholder="Masukkan Input 1" name="a1" autocomplete="off">
+                <input type="text" placeholder="Masukkan Input 2" name="a2" autocomplete="off">
+            </div>
+            <div class="tombol">
+                <span onclick="hitung('+')">+</span>
+                <span onclick="hitung('-')">-</span>
+                <span onclick="hitung('*')">*</span>
+                <span onclick="hitung('/')">/</span>
+                <span onclick="hitung('%')">%</span>
+                <span onclick="hitung('**')">^</span>
+            </div>
+            <button type="reset">Batal</button>
+        </form>
+    </div>
+    <script src="JS_tugas6.js"></script>
+</body>
+</html>
