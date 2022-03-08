@@ -5,7 +5,7 @@ class Gempa{
     }
     dampak(){
         for (const iterator in this.lokasi) {
-            let randomSkala = Math.floor(Math.random()*this.skala) + 1,
+            let randomSkala = Math.floor(Math.random()*this.skala),
                 dampak = (randomSkala>=0 && randomSkala<=2) ? "Tidak Berasa"
                         : (randomSkala >= 2 && randomSkala <= 4) ? "Bangunan Retak"
                         : (randomSkala >= 4 && randomSkala <= 6) ? "Bangunan Roboh"
