@@ -26,6 +26,12 @@ body{
     justify-content: center;
     align-items: center;
     position: relative;
+    cursor: pointer;
+    transition: .8s;
+}
+.card:hover{
+    transform: scale(1.02);
+    
 }
 .card p{
     font-size: 24px;
