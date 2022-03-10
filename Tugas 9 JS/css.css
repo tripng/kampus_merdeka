@@ -1,0 +1,23 @@
+*{
+    font-family: 'Paytone One', sans-serif;
+}
+:root{
+    --red : #ff3838 !important;
+}
+
+a.navbar-brand span{
+    color:var(--red);
+}
+.header p,.row.footer .alert{
+    font-family: 'Hind Siliguri', sans-serif;
+}
+.carousel-inner img{
+    filter: opacity(90%);
+}
+.container-fluid.content p,
+.container-fluid.content ul li{
+    font-family: 'Hind Siliguri', sans-serif !important;
+}
+.row .alert{
+    border-radius: none !important;
+}
