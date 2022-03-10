@@ -1,8 +1,12 @@
-*{
+*,.container-fluid.content button{
     font-family: 'Paytone One', sans-serif;
+    scroll-behavior: smooth;
 }
 :root{
     --red : #ff3838 !important;
+}
+body{
+    background: #F8F9FA;
 }
 
 a.navbar-brand span{
@@ -14,8 +18,31 @@ a.navbar-brand span{
 .carousel-inner img{
     filter: opacity(90%);
 }
+span.carousel-control-prev-icon,
+span.carousel-control-next-icon{
+    border:2px solid white;
+    border-radius: 50%;
+    padding:20px;
+    transition: .5s;
+}
+span.carousel-control-prev-icon:hover,
+span.carousel-control-next-icon:hover{
+    transform: scale(1.1);
+}
+
+.content .col-md-7.main,
+.content .col-md-2:first-child{
+    background: white !important;
+    /* border: 1px solid var(--red); */
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, .2);
+}
+.content .col-md-2:last-child{
+    box-shadow: -3px 3px 5px rgba(0, 0, 0, .2);
+}
+
 .container-fluid.content p,
-.container-fluid.content ul li{
+.container-fluid.content ul li,
+.container-fluid.content table td{
     font-family: 'Hind Siliguri', sans-serif !important;
 }
 .row .alert{
