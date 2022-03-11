@@ -48,3 +48,10 @@ span.carousel-control-next-icon:hover{
 .row .alert{
     border-radius: none !important;
 }
+
+@media screen and (max-width: 450px) {
+    #pills-contact{
+        display: flex;
+        flex-direction: column !important;
+    }
+ }
